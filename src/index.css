@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Almendra+SC&family=Lato:ital,wght@0,400;0,700;1,700&family=Nunito+Sans:wght@500&family=Poppins:wght@100;300;400;500;600&family=Raleway:ital,wght@0,600;0,700;0,800;1,500;1,600;1,800&family=Rubik+Dirt&family=Rubik+Vinyl&family=Sorts+Mill+Goudy:ital@1&family=Ubuntu&family=Wix+Madefor+Text:ital,wght@0,500;0,600;1,500&display=swap');
+
+
+body{
+font-family: 'Ubuntu', sans-serif;
+background: linear-gradient(207deg, rgba(213,114,37,1) 30%, rgba(121,199,78,1) 77%);
+
+}
+/* .header{
+
+      & h2{
+            font-family: 'Ubuntu', sans-serif;
+            color: red;
+}
+} */
+
+.card-body {
+
+      & button { 
+         border: none;
+         background: none;
+   
+
+      }
+}
+
+
+.cards{
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+      background: linear-gradient(207deg, rgb(230, 211, 198) 30%, rgb(206, 92, 47) 77%);
+    
+
+}
+.title{
+letter-spacing: .2;
+    font-size: 20px;
+}
