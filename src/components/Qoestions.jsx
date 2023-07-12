@@ -26,7 +26,7 @@ const [toogle , setToogle ] = useState(true)
 
 {
 
-toogle ? (<button onClick={()=> setToogle(false)}>{arrowdown}</button> ) : (<button onClick={()=> setToogle(true)}>{arrowup}</button>) 
+toogle ? (<button  onClick={()=> setToogle(false)}>{arrowdown}</button> ) : (<button onClick={()=> setToogle(true)}>{arrowup}</button>) 
 
 }
 
